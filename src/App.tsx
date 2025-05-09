@@ -1,6 +1,7 @@
 import React from 'react';
 import ChatbotButton from './components/ChatbotButton';
 import Chatbot from './components/Chatbot';
+import DocumentUpload from './components/DocumentUpload';
 import { ChatProvider } from './context/ChatContext';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <div className="bg-white shadow rounded-lg p-8">
           <div className="max-w-3xl">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Transform Your Website's Customer Support</h2>
+            <DocumentUpload />
             <div className="space-y-4 text-gray-600">
               <p>
                 Floating Chatbot is a powerful AI-powered chat solution that integrates seamlessly with any website. 
@@ -30,6 +32,7 @@ function App() {
                   <li>Powered by OpenAI's GPT technology</li>
                   <li>Customizable appearance</li>
                   <li>Mobile-responsive design</li>
+                  <li>Document-based responses</li>
                 </ul>
               </div>
               <p>
