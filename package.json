@@ -13,5 +13,8 @@
     "next-themes": "latest",
     "tailwind-merge": "latest",
     "tailwindcss-animate": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
   }
 }
